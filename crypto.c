@@ -1,8 +1,7 @@
 /*
- * crypto.c
+ * TP: crypto.c
  *
- *  Created on: 8 Jun 2021
- *      Author: disch
+ * Author: Armoogum Dischan Pillay
  */
 
 #include<stdio.h>
@@ -197,7 +196,7 @@ int main() {
 		fprintf(fichier, "\nDecrypted Cesar : %s \n", text);
 
 		int k1;
-		int atoi(const char * str);
+		int atoi(const char *str);
 		k1 = xor ^ atoi(text);
 
 		printf("K est: %d", k1);
@@ -228,7 +227,7 @@ int main() {
 		printf("\n");
 	}
 	fclose(fichier);
-	system("pause");
+	exit(0);
 	return 0;
 
 }
